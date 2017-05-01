@@ -1,5 +1,0 @@
-INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
-INFO:werkzeug:127.0.0.1 - - [21/Apr/2017 11:52:27] "GET /favicon.ico HTTP/1.1" 404 -
-INFO:werkzeug:127.0.0.1 - - [21/Apr/2017 12:08:37] "GET /index.html HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [21/Apr/2017 12:08:37] "GET /favicon.ico HTTP/1.1" 404 -
-INFO:werkzeug:127.0.0.1 - - [21/Apr/2017 12:08:40] "POST /moderate HTTP/1.1" 200 -
