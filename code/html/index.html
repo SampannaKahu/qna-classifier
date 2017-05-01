@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Question or answer?</title>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"
+          integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+</head>
+<body>
+<div class="container">
+    <br>
+
+    <nav class="navbar navbar-default">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="#">Question/Answer classifier</a>
+            </div>
+
+            <ul class="nav navbar-nav navbar-right">
+                <li role="presentation"><a href="/console">Home</a></li>
+            </ul>
+
+        </div><!-- /.container-fluid -->
+    </nav>
+
+    <div class="row">
+        <div class="col-md-2">
+            <!--empty-->
+        </div>
+        <div class="col-md-8">
+            <form action="moderate" method="post" enctype="multipart/form-data">
+                <div class="form-group">
+                    <label for="text">Enter your text</label>
+                    <input type="text" class="form-control" id="text" name="sentence" placeholder="Question/Answer">
+                </div>
+                <button type="submit" class="btn btn-primary">
+                    Classify
+                </button>
+            </form>
+        </div>
+        <div class="col-md-2">
+            <!--empty-->
+        </div>
+    </div>
+
+</div>
+</body>
+</html>
